@@ -49,7 +49,6 @@ function converterStatusHTML(pokemon) {
                         <li>SPD: ${pokemon.stats[4].base_stat}</li>
                         <li>SP: ${pokemon.stats[5].base_stat}</li>
                     </ol>
-
                 </div>
             </div>
         </div>
