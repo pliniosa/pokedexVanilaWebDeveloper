@@ -16,3 +16,8 @@ pokeApi.getPokemon =  (offset = 0, limit = 10)=>{
         .then((pokemonDetails) => pokemonDetails)
 }
 
+pokeApi.getPokemonUnico = (number)=>{
+    const URL2 = `https://pokeapi.co/api/v2/pokemon/${number}`
+    return fetch(URL2)
+        .then((response) => response.json())
+}

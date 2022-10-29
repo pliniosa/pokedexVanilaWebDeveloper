@@ -1,0 +1,68 @@
+.status{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.statusImg{
+    max-width: 100%;
+    height: 70px;
+}
+
+.statusNumero{
+    color: black;
+    opacity: 0.6;
+    text-align: right;
+    font-size: 12px;
+}
+
+.statusNome {
+    text-transform: capitalize;
+    color: white;
+    margin: 0.25rem 0;
+}
+
+.statusDetalhe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.statusTypes {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.statusType{
+    color: white;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem;
+    border-radius: 1rem;
+    font-size: 12px;
+    filter:brightness(1.1);
+}
+.statusBase{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-size: 12px;
+}
+.statusBase span{
+    text-align: center;
+}
+
+.statusBase ol li{
+    align-items: left;
+    list-style: none;
+}
+
+.btnStatus{
+   width: 70PX; 
+   margin: auto;
+}
